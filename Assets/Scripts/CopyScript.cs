@@ -10,7 +10,10 @@ public class CopyScript : Photon.MonoBehaviour {
 		if (photonView.isMine) {
 			GetComponent<PhotonVoiceRecorder>().enabled = true;
 			GetComponent<MeshRenderer>().enabled = false;
-			
+			MeshRenderer[] renderers = GetComponentsInChildren<MeshRenderer>();
+			foreach (var renderer in renderers) {
+				renderer.enabled = false;
+			}
 			
 		}
 	}
