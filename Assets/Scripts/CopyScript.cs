@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class CopyScript : Photon.MonoBehaviour {
 
+	public GameObject Text;
+
 	private void Start() {
 		if (photonView.isMine) {
 			GetComponent<PhotonVoiceRecorder>().enabled = true;
+			GetComponent<MeshRenderer>().enabled = false;
+			
+			
 		}
 	}
 	// Update is called once per frame

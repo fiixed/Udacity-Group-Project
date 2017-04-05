@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25d8c0cda699c1c46b49726babb295db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  avatarPrefab: {fileID: 1480027157913084, guid: 44ea359cec5ce0a49901d9c5338e738a,
+  avatarPrefab: {fileID: 1406136212654986, guid: f32b31bc342aa384482853c241d35d6e,
     type: 2}
 --- !u!4 &733025456
 Transform:
