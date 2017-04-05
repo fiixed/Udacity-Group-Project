@@ -12,6 +12,7 @@ public class NetManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		PhotonNetwork.ConnectUsingSettings(VERSION);
+		var temp = PhotonVoiceNetwork.Client;
 	}
 
 	public virtual void OnConnectedToMaster() {
