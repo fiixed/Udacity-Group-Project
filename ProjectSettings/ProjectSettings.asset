@@ -7,11 +7,11 @@ PlayerSettings:
   productGUID: 883d60d1f5bf89c4694e24bb1ac38602
   AndroidProfiler: 0
   defaultScreenOrientation: 4
-  targetDevice: 2
+  targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Udacity Group Project
+  companyName: Udacity
+  productName: StudentJam
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21176471, a: 1}
@@ -139,12 +139,12 @@ PlayerSettings:
     Android: com.udacityvrgroup.project
     Standalone: unity.DefaultCompany.Udacity Group Project
     Tizen: com.Company.ProductName
-    iOS: com.Company.ProductName
+    iOS: com.udacity.sjam1
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 19
+  AndroidMinSdkVersion: 25
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -161,7 +161,7 @@ PlayerSettings:
     serializedVersion: 2
     m_Bits: 238
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 
+  iOSTargetOSVersionString: 7.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 
@@ -236,6 +236,10 @@ PlayerSettings:
     m_Devices:
     - daydream
     - cardboard
+  - m_BuildTarget: iOS
+    m_Enabled: 1
+    m_Devices:
+    - cardboard
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   webPlayerTemplate: APPLICATION:Default
@@ -259,12 +263,12 @@ PlayerSettings:
   wiiUDrcBufferDisabled: 0
   wiiUProfilerLibPath: 
   actionOnDotNetUnhandledException: 1
-  enableInternalProfiler: 0
+  enableInternalProfiler: 1
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
-  locationUsageDescription: 
-  microphoneUsageDescription: 
+  cameraUsageDescription: Used to scan QR codes
+  locationUsageDescription: this app uses networking
+  microphoneUsageDescription: need to talk to other players
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
   switchSocketAllocatorPoolSize: 128

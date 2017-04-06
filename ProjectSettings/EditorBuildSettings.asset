@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Photon_Networking_Test.unity
     guid: 2c78e4510dd7baf429dc774134721d25
+  - enabled: 0
+    path: Assets/GoogleVR/Demos/Scenes/PermissionsDemo.unity
+    guid: 5d5572a3735414cc9ad53b169fe2c7e8
